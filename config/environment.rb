@@ -19,7 +19,7 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
-  config.gem 'josevalim-inherited_resources', :lib => 'inherited_resources', :source => 'http://gemcutter.com'
+  config.gem 'josevalim-inherited_resources', :lib => 'inherited_resources', :source => 'http://gemcutter.org'
   config.gem 'paperclip'
   config.gem 'cucumber', :lib => false
   config.gem 'webrat', :lib => false
