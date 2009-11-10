@@ -8,7 +8,7 @@ require File.expand_path(File.join(File.dirname(__FILE__), "..", "support", "pat
 # Commonly used webrat steps
 # http://github.com/brynary/webrat
 
-Given /^I am on (.+)$/ do |page_name|
+Given /^que estou na (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
@@ -16,11 +16,11 @@ When /^I go to (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
-When /^I press "([^\"]*)"$/ do |button|
+When /^pressiono "([^\"]*)"$/ do |button|
   click_button(button)
 end
 
-When /^I follow "([^\"]*)"$/ do |link|
+When /^clico no link "([^\"]*)"$/ do |link|
   click_link(link)
 end
 
@@ -120,7 +120,7 @@ When /^I attach the file at "([^\"]*)" to "([^\"]*)"$/ do |path, field|
   attach_file(field, path)
 end
 
-Then /^I should see "([^\"]*)"$/ do |text|
+Then /^devo ver "([^\"]*)"$/ do |text|
   response.should contain(text)
 end
 
@@ -142,7 +142,7 @@ Then /^I should see \/([^\/]*)\/ within "([^\"]*)"$/ do |regexp, selector|
   end
 end
 
-Then /^I should not see "([^\"]*)"$/ do |text|
+Then /^não devo ver "([^\"]*)"$/ do |text|
   response.should_not contain(text)
 end
 
@@ -187,3 +187,4 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
+
