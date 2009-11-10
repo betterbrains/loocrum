@@ -1,0 +1,16 @@
+<h1>Editing conta</h1>
+
+<% form_for(@conta) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @conta %> |
+<%= link_to 'Back', contas_path %>

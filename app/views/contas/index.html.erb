@@ -1,0 +1,20 @@
+<h1>Listing contas</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+  </tr>
+
+<% @contas.each do |conta| %>
+  <tr>
+    <td><%=h conta.nome %></td>
+    <td><%= link_to 'Show', conta %></td>
+    <td><%= link_to 'Edit', edit_conta_path(conta) %></td>
+    <td><%= link_to 'Destroy', conta, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New conta', new_conta_path %>

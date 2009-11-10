@@ -7,7 +7,7 @@ E /^clico no link "([^\"]*)"$/ do |link|
 end
 
 E /^preencho o formulario$/ do
-  fill_in "participante[nome]", :with => "Conta Bancário do João"
+  fill_in "conta[nome]", :with => "Conta Bancário do João"
   click_button("Create")
 end
 
