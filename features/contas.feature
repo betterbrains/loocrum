@@ -17,3 +17,9 @@ Funcionalidade: Contas financeiras
 		Entao devo ver "celular"
 		E não devo ver "telefone-fixo"
 
+     Cenario: Excluir contas
+		Dado que tenho a conta "telefone-fixo"
+		E que estou na tela de contas
+		E clico no link "Destroy"
+		Entao não devo ver "telefone-fixo"
+
