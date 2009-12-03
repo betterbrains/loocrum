@@ -28,7 +28,7 @@ When /^I follow "([^\"]*)" within "([^\"]*)"$/ do |link, parent|
   click_link_within(parent, link)
 end
 
-When /^I fill in "([^\"]*)" with "([^\"]*)"$/ do |field, value|
+When /^preencho "([^\"]*)" com "([^\"]*)"$/ do |field, value|
   fill_in(field, :with => value)
 end
 

@@ -7,7 +7,8 @@ Entao /^devo ver a nova conta na lista de contas$/ do
   response.should contain("Conta Bancário do João")
 end
 
-Dado /^que tenho a conta "([^\"]*)"$/ do |name|
-  Conta.create(:nome => name)
+Dado /^que tenho a conta:$/ do |table|
+  table.hashes.map do |name|
+    Conta.create(:nome => name)
+  end
 end
-
