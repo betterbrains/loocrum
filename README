@@ -4,29 +4,23 @@ Loocrum - Gestor Financeiro
 
 O projeto Loocrum tem como proposta criar um software de gestão financeira simples e eficiente, possibilitando a 
 gestão de suas finanças pessoais, independente do nível de conhecimento contábil e econômico do usuário. 
-O projeto esta sendo desenvolvido em Ruby On Rails.
+
+Existem muitos softwares, pagos e gratuitos que fazem gestão financeira, a intenção não é ser apenas uma opção gratuita, é ser uma opção extremamente simples e rápida das pessoas poderem acompanhar seu orçamento e tomar decisões que ajude sua vida.
 
 Totalmente gratuito, o software pode ser usado livremente sem nenhum custo adicional. O Loocrum é acessado via web, 
 podendo ser usado de qualquer lugar onde se tenha um navegador disponível.
 
-O projeto é desenvolvido por colaboradores voluntários, sobre a batuta da empresa BetterBrains. O projeto caminha
-para uma grande solução de gerenciamento financeiro acessível a todos.
+O projeto é desenvolvido por colaboradores voluntários e toda infra do site, ambiente para o projeto, foi cedido pela empresa BetterBrains Studio. 
 
-Algumas das principais funcionalidades são:
-* Criação de vários orçamentos por usuário.
+Algumas das principais funcionalidades que o projeto pretente cobrir são:
 * Contas a receber/pagar.
-* Controle de contas bancárias e cheques.
-* Controle de cartões de crédito.
+* Gráficos estatísticos.
 * Importação de extratos bancários e arquivos de softwares comerciais como Quicken, Money, etc.
 * Integração das contas entre orçamentos diferentes.
-* Gráficos estatísticos.
 * Relatórios de acompanhamento.
 * Cálculos de 13º salário, férias, juros, financiamentos, dentre outros.
 * Módulo adicional para acompanhamento da bolsas de valores ao redor do mundo.
 * Tickets com notícias do mundo financeiro em tempo real.
 
 
-Obrigado!
-
 Equipe Loocrum.
-
